@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/backgroundColor</item>
+    </style>
+
+    <!--//TODO uncomment later-->
+    <!--<style name="AppTheme.NoActionBar">-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="android:windowDrawsSystemBarBackgrounds" tools:ignore="NewApi">true</item>-->
+    <!--<item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>-->
+    <!--</style>-->
+
+
+    <!--<style name="AppTheme.NoActionBar.TranslucentStatusBar">-->
+    <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.Translucent" parent="AppTheme.NoActionBar.TranslucentStatusBar">-->
+    <!--<item name="android:windowBackground">@color/windowBackgroundTranslucent</item>-->
+    <!--<item name="android:windowIsTranslucent">true</item>-->
+    <!--</style>-->
+
+
+</resources>

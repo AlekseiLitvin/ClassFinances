@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/pofile"
+            android:title="Профиль ребенка" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/list"
+            android:title="Список детей" />
+        <item
+            android:id="@+id/donate_collector"
+            android:icon="@drawable/card"
+            android:title="Сбор денег" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/payings"
+            android:title="Траты" />
+    </group>
+
+    <item android:title="Профиль">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/edit"
+                android:title="Редктировать профиль" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/password"
+                android:title="Сменить пароль" />
+        </menu>
+    </item>
+
+    <item android:title="Права">
+        <menu>
+            <item
+                android:id="@+id/share_rights"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Передать права" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/share_class_id" android:title="Share class ID">
+    </item>
+
+</menu>
